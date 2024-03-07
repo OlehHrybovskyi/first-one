@@ -1,0 +1,23 @@
+79 / false
+const getUniqueValues = array => [...new Set(array)];
+kiwi
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const formatDate = date => new Date(date).toLocaleDateString();
+false - banana
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+orange + false
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+apple - 96,90,23,17,77,5,36,77,8,52,66,74,58,90,66,26,75,85,55,81,27,17,65,30,39,44,1,75,29,78,36,34,89,24,28,0,2,34,23,69
+const filterEvenNumbers = numbers => numbers.filter(isEven);
