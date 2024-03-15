@@ -1,0 +1,55 @@
+orange * kiwi
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+apple
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+9,25,73,74,66,45,73,67,10,10,10,38,59,6,7,16,83,16,38,12,77,48,60,5 * false
+function addNumbers(a, b) { return a + b; }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const reverseString = str => str.split("").reverse().join("");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+68 - kiwi
+const findLargestNumber = numbers => Math.max(...numbers);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi + 57,48,72,50,97,65,50,34,77,74,99,14,84,0,96,83,21,6,53,95,71,21,76,3,58,56,40,55,6,70,91,87,81,55
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+true * 53,68,13,18,38,94,34,84,48,59,52,20,55,63,49,1,84,25,38,54,45,14,42,81,85,85,59,82,65,65,79,34,7,56,74,4,72,99,73,51,63,95,93,88,31,39,64
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+kiwi
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sum = (a, b) => a + b;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+kiwi
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+true * 59
+const reverseString = str => str.split("").reverse().join("");
+banana * 71
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const randomNumber = getRandomNumber();
+59,42,49,60,1,11,21,3,59,15,14,32,98,95,41,24,72,12,20,50,16,40,52,58,60,39,98,51,41,19,47,19,59,6,82,22,90,73,32,60,37,99,20,72,39,72,72,19,5,2,50,9,58,90,33,39,75,97,63,84,65,90,6,67,85,40,78,73,76,34,26,79,71,90,70,17,61,87,29,19,15,54,92,62,28,27,48 - 3,30,72,70,4,84,63,21,31,12,57,43,3,44,49
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+90,23,76,75,45,70 * 47
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+60,35,80,14,56,10,81,26,10,16,26,22,66,18,4,46,37,41,64,38,78,50,35,43,18,41,57,99,36,12,12,99,5,10,37,31,49,31,34,18,48,93,23,26,92,87,51,71,33,84,7,21,83,44,98,91,12,59,51,85,47,81,17,62 * true
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getUniqueValues = array => [...new Set(array)];
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
