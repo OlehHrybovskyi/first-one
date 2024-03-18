@@ -1,0 +1,82 @@
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+84 + 87,76,50,6,69,63,24,72,86,93,18,55,60,60,70,88,9,13,89,28,88,82,84,42,98,48,58,40,53,78,39,42,72,16,98,39,37,25,21,60,87,27,64,62,81,38,73,56,82,75,37,38,61,49,31,63,35,14,1,15,7,25,95,55,25,21,22,76,90
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+19 / 38
+const capitalizeString = str => str.toUpperCase();
+grape
+
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+55,6,35,91,80,89,34,46,71,97,47,74,68,33,61,98,66,93,49,5,42,29,17,89,54,20,40,21,31,56,62,3,79,64,11,85,15,40,90,59,89,47,74,49,1,61,46,94,33,80,19,13,97,54,16,98,65,52,62,44 * kiwi
+const formatDate = date => new Date(date).toLocaleDateString();
+19,71,65,13,99,61,99,3,54,44,40,9,61,75,12,35,96,5,16,84,61,81,44,26,45,80,57,9,35,94,34,35,72,94,44,1,57,68,78,61,88,29,23,74,37,85,36,54,13,91,31,60,57,95,83,28,4,75,74,88,99,93 * true
+const squareRoot = num => Math.sqrt(num);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+77 / 88,25,4,87,51,64,84,39,61,1,32,90,80,97,57,32,90,91,60,8,75,50,41,9
+
+const getUniqueValues = array => [...new Set(array)];
+orange - true
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+grape - 68
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sum = (a, b) => a + b;
+0,88 + 20
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const sum = (a, b) => a + b;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+false / false
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+90 * true
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+76 - false
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const findLargestNumber = numbers => Math.max(...numbers);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const getRandomElement = array => array[getRandomIndex(array)];
+kiwi * false
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+91,86,19,53,98,46,27,62,76,26,93,44,76,12,76,10,53,58,67,57,49,13,28,83,88,63,40,55,20,40,54,57,96,93,11,25,2,17,69,96,71,8,78,9,91,18,71,34,41,36,44,37,50,42,8,40,17,10,28,28,66,27,93,65,4 - grape
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const capitalizeString = str => str.toUpperCase();
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+banana
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+61,72,75,63,51,46,9,4,95,69,64,5,14,48,39,78,46,36,60,3,95,2,91,29,36,13 - 35
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+grape + false
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange - 9
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+class MyClass { constructor() { this.property = getRandomString(); } }
