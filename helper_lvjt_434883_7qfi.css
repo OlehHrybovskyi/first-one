@@ -1,0 +1,29 @@
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+false - 69,66,27,33,37,92,98,94,95,64,73,40,18,40,61,31,59,91,39,20,23,63,59,48
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+grape
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+console.log(getRandomString());
+const formatDate = date => new Date(date).toLocaleDateString();
+const getRandomSubset = (array, size) => array.slice(0, size);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+true * 12,95,73,91,39,34,89,56,94,45,96,8,78,20,81,75,78,10,71,89,52,39,0,3,24,58,22,52,17,44,0,98,4,99,85,74,67,37,58,63,72,9,98,55,10,9,77,31,54,75,16,71,44,38,70,36,19,54,30,62,98,42,32,85,93,25,33,32,32,46,98,12,14,30,70,8,59,77,56,89
+const getRandomElement = array => array[getRandomIndex(array)];
+true - true
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false + 61,88,69,79,33,64,95,90,1,5,64,35,35,24,93,30,75,37,97,73,45,40,56,55,69,46,51,48,46,2,75,4,31,6,25,42,7,27,24,71,38,23,21,92,31,43,66,25,38,6,96,36,28,32,39,66,93,86,26,56,38,66,84,53,23,84,55,95,44,79,89,99,87,98,70,75,27,71,87,72,65,4,59,74,0
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+false + false
+
+const greet = name => `Hello, ${name}!`;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
